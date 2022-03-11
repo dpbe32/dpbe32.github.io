@@ -5,7 +5,7 @@ published: true
 
 # Introducción
 
-Soy Daniel Prieto Bóveda. En esta web quiero enseñar a resvolver máquinas de HackTheBox. También enseñaré los proyectos que he realizado en clase.
+Soy Daniel Prieto Bóveda. En esta web quiero enseñar a resolver máquinas de HackTheBox. También enseñaré los proyectos que he realizado en clase.
 He creado esta web para que la gente pueda aprender. Debido a que explicando interiorizas más los conceptos para poder enseñar bien a la gente.
 
 ## ¿Quién soy?
