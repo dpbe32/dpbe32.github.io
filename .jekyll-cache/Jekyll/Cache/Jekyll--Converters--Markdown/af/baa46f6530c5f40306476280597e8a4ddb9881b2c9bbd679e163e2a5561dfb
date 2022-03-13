@@ -1,0 +1,12 @@
+I"x<p>En esta ocasión os traigo la máquina Blue de HackTheBox. Es una máquina Windows. Para saber por donde se debe explotar, primero se debe realizar el escaneo. Para ello se va a star usando Nmap. Se explicará los diferentes tipos de escaneo tanto el lento cómo el rápido.</p>
+
+<p>Primero se debe crear un directorio con el nombre de la máquina, después los subdirectorios para tener todo organizado. Y seguidamente lanzar una traza ICMP para saber si la máquina está activa. También se podrá mediante el Ttl ante que sistema operativo se está enfrentando.</p>
+
+<p><img src="../Blue_Hackthebox/captura1.png" alt="captura1" /></p>
+
+<p>Una vez se tiene lo necesario, se comienza con la fase de reconocimiento. Se lanza una traza ICMP. Se puede ver que la máquina está activa. En base al TTL se puede identificar que es una máquina Windows. Debido a que el TTL en máquinas Linux es 64 y en máquinas Windows es 128. En este caso disminuye una unidad debido a que se está conectado por VPN y al pasar por los nodos este disminuye una unidad. Por lo tanto siempre va a ser 127.</p>
+
+<p><img src="../Blue_Hackthebox/captura2.png" alt="captura2" /></p>
+
+<p>Con la herramienta whichSystem que está creada en el lenguaje se puede identificar a qué sistema operativo se está enfrentando. Simplemente se debe pasar la dirección IP como argumento y este nos diŕa si es Windows o linux.</p>
+:ET
